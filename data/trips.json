@@ -1,0 +1,40 @@
+[
+  {
+    "name": "Coral Reef Escape",
+    "location": "Maldives",
+    "pricePoint": "Luxury",
+    "price": 2899,
+    "nights": 7,
+    "includes": [
+      "Round-trip airfare",
+      "Ocean-view villa",
+      "Snorkeling excursion",
+      "Daily breakfast"
+    ]
+  },
+  {
+    "name": "Mountain Adventure",
+    "location": "Swiss Alps",
+    "pricePoint": "Mid-range",
+    "price": 1799,
+    "nights": 5,
+    "includes": [
+      "Hotel stay",
+      "Guided hiking tour",
+      "Breakfast and dinner",
+      "Airport transfers"
+    ]
+  },
+  {
+    "name": "City Lights Getaway",
+    "location": "New York, USA",
+    "pricePoint": "Budget",
+    "price": 899,
+    "nights": 3,
+    "includes": [
+      "Hotel stay",
+      "City pass attractions",
+      "Public transit card"
+    ]
+  }
+]

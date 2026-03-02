@@ -1,0 +1,14 @@
+<nav style="margin-bottom: 16px;">
+  <a href="/">Home</a> |
+  <a href="/travel">Travel</a> |
+  <a href="/about">About</a> |
+  <a href="/contact">Contact</a>
+</nav>
+<h1>{{message}}</h1>
+{{#if error.status}}
+  <h2>{{error.status}}</h2>
+{{/if}}
+
+{{#if error.stack}}
+  <pre>{{error.stack}}</pre>
+{{/if}}

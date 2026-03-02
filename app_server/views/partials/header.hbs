@@ -1,0 +1,18 @@
+<nav style="margin-bottom: 16px;">
+  <a href="/">Home</a> |
+  <a href="/travel">Travel</a> |
+  <a href="/about">About</a> |
+  <a href="/contact">Contact</a>
+</nav>
+<header class="site-header">
+  <div class="brand">
+    <a href="/" class="brand-link">Travlr Getaways</a>
+  </div>
+
+  <nav class="nav">
+    <a href="/" class="{{#if (eq page 'home')}}active{{/if}}">Home</a>
+    <a href="/travel" class="{{#if (eq page 'travel')}}active{{/if}}">Travel</a>
+    <a href="/about" class="{{#if (eq page 'about')}}active{{/if}}">About</a>
+    <a href="/contact" class="{{#if (eq page 'contact')}}active{{/if}}">Contact</a>
+  </nav>
+</header>
